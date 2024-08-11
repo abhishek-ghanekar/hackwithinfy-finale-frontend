@@ -35,12 +35,13 @@ const navigate = useNavigate()
       
 
   return (
-    <>
+    <div className='h-screen'>
   {/* Hello world */}
+
   <Navbar/>
-  <section className="text-gray-600 body-font relative">
+  <section className="text-gray-600 body-font  mt-24 ">
     
-    <div className="container px-5 py-12 mx-auto flex justify-center">
+    <div className="container px-5  mx-auto flex justify-center h-full items-center">
       <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col  w-full mt-10 md:mt-0 relative z-10 shadow-md">
         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
           Login To The Application
@@ -96,8 +97,8 @@ const navigate = useNavigate()
       </div>
     </div>
   </section>
-  <ToastContainer/>
-</>
+  {/* <ToastContainer/> */}
+</div>
 
   )
 }
