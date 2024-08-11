@@ -5,6 +5,7 @@ import { auth } from '../../../../utils/firebase-config';
 import { useNavigate } from 'react-router-dom';
 // import { toast } from 'react-toastify';
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from '../../../components/Footer';
   
 
 const Login = () => {
@@ -39,7 +40,7 @@ const navigate = useNavigate()
   {/* Hello world */}
 
   <Navbar/>
-  <section className="text-gray-600 body-font  mt-24 ">
+  <section className="text-gray-600 body-font  my-32">
     
     <div className="container px-5  mx-auto flex justify-center h-full items-center">
       <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col  w-full mt-10 md:mt-0 relative z-10 shadow-md">
@@ -97,6 +98,9 @@ const navigate = useNavigate()
       </div>
     </div>
   </section>
+
+  <Footer/>
+
   <ToastContainer/>
 </div>
 

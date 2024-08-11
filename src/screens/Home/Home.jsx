@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import Hero from '../../components/Hero'
+import Footer from '../../components/Footer'
+import Testimonials from '../../components/Testimonials/Testimonials'
 const Home = () => {
   return (
     <div>
@@ -8,6 +10,8 @@ const Home = () => {
 
       <Navbar/>
       <Hero/>
+      <Testimonials/>
+      <Footer/>
       {/* </div> */}
     </div>
   )
