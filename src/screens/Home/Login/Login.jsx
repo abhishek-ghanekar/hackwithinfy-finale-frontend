@@ -98,7 +98,9 @@ const navigate = useNavigate()
       </div>
     </div>
   </section>
+
   <Footer/>
+
   <ToastContainer/>
 </div>
 
